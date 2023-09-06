@@ -139,7 +139,7 @@ const sectionObeserver = new IntersectionObserver(revealSections, {
 });
 // loops over sections and attaches the observer to said sections.
 allSections.forEach(section => {
-  // section.classList.add('section--hidden');
+  section.classList.add('section--hidden');
   sectionObeserver.observe(section);
 });
 
